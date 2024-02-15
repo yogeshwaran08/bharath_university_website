@@ -13,7 +13,7 @@ const FAQ: React.FC = () => {
         <div className="faqContent">
           <div className="faq" data-aos="fade-up" data-aos-duration="3000">
             <details>
-              <summary>What is Lorem Ipsum?</summary>
+              <summary>Why Bharath university</summary>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
@@ -21,7 +21,7 @@ const FAQ: React.FC = () => {
             </details>
 
             <details>
-              <summary>Why do we use it?</summary>
+              <summary>Bharath universities achivements?</summary>
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
@@ -29,21 +29,21 @@ const FAQ: React.FC = () => {
             </details>
 
             <details>
-              <summary>Where does it come from?</summary>
+              <summary>Facilities in Bharath University?</summary>
               <p>
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text.
               </p>
             </details>
             <details>
-              <summary>Where does it come from?</summary>
+              <summary>Education system in Bharath University?</summary>
               <p>
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text.
               </p>
             </details>
             <details>
-              <summary>Where does it come from?</summary>
+              <summary>where is Bharath university?</summary>
               <p>
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text.

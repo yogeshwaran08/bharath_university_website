@@ -27,7 +27,7 @@ const HeroTwo: React.FC = () => {
     });
   };
   return (
-    <div className="mx">
+    <div>
       <div className="banner">
         <div className="navbar">
           <img src={Logo} alt="logo" className="logo" />

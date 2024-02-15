@@ -3,10 +3,15 @@ import "./Card.css";
 
 const Card: React.FC = () => {
   return (
-    <div className="cardWrapper">
+    <div className="cardWrapper" id="courses">
+      <div className="heading">
+        <h4>Courses</h4>
+      </div>
       <div>
         <div className="container">
+          
           <div className="card">
+            
             <div className="imgBox">
               <img
                 src="https://blog.vantagecircle.com/content/images/2019/06/company-event.png"
@@ -14,12 +19,9 @@ const Card: React.FC = () => {
               />
             </div>
             <div className="content">
-              <h2>Card One</h2>
+              <h2>Arts</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Facilis dolorem molestiae nisi minima dolores nostrum, iure
-                commodi, omnis porro voluptate voluptas cumque non similique
-                voluptatibus voluptates aspernatur, fuga dolor ea!
+                Attending an arts college can be a transformative experience for students pursuing a career in the arts.
               </p>
             </div>
           </div>
@@ -31,12 +33,9 @@ const Card: React.FC = () => {
               />
             </div>
             <div className="content">
-              <h2>Card Two</h2>
+              <h2>Architecture</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Facilis dolorem molestiae nisi minima dolores nostrum, iure
-                commodi, omnis porro voluptate voluptas cumque non similique
-                voluptatibus voluptates aspernatur, fuga dolor ea!
+               Architecture school is a unique and challenging experience for students pursuing a career in design and construction.
               </p>
             </div>
           </div>
@@ -48,12 +47,9 @@ const Card: React.FC = () => {
               />
             </div>
             <div className="content">
-              <h2>Card Three</h2>
+              <h2>Medicine</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Facilis dolorem molestiae nisi minima dolores nostrum, iure
-                commodi, omnis porro voluptate voluptas cumque non similique
-                voluptatibus voluptates aspernatur, fuga dolor ea!
+              Medical school is a rigorous and exciting experience for students pursuing a career in healthcare.
               </p>
             </div>
           </div>
@@ -65,12 +61,9 @@ const Card: React.FC = () => {
               />
             </div>
             <div className="content">
-              <h2>Card One</h2>
+              <h2>Law</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Facilis dolorem molestiae nisi minima dolores nostrum, iure
-                commodi, omnis porro voluptate voluptas cumque non similique
-                voluptatibus voluptates aspernatur, fuga dolor ea!
+                Law school is a challenging and rewarding experience for many students. It is a place where you can learn about the law and legal system, develop critical thinking and analytical skills, and gain practical experience through internships and clinics
               </p>
             </div>
           </div>

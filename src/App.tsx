@@ -5,6 +5,7 @@ import FAQ from "./components/FAQ";
 import Hero from "./components/Hero";
 import OurAdvantages from "./components/OurAdvantages";
 import Service from "./components/Service";
+import Footer from "./components/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -19,11 +20,12 @@ const App: React.FC = () => {
   return (
     <>
       <Hero />
-      <AboutUs />
       <Service />
+      <AboutUs />
       <OurAdvantages />
-      {/* <Card /> */}
+      <Card />
       <FAQ />
+      <Footer/>
     </>
   );
 };
