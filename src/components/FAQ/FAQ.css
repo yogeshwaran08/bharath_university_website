@@ -1,0 +1,48 @@
+.faqContainer {
+  padding: 64px 70px;
+}
+
+.heading h1 {
+  font-size: 52px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.faqContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.faq {
+  margin-top: 10%;
+}
+.faqImg img {
+  width: 600px;
+  height: 550px;
+  object-fit: cover;
+}
+.faq details {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 55px;
+}
+
+.faq summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+.faq details summary {
+  margin-bottom: 20px;
+}
+
+.faq p {
+  margin: 0;
+  padding: 10px;
+  transition: max-height 0.5s ease-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.faq details[open] p {
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in;
+}

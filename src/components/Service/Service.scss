@@ -1,0 +1,111 @@
+.serviceWrapper {
+  padding: 64px;
+
+  .heading {
+    h4 {
+      font-size: 52px;
+      margin-bottom: 50px;
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+  .serviceContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    .firstContent {
+      h5 {
+        font-size: 16px;
+        letter-spacing: 3px;
+      }
+      h1 {
+        font-size: 38px;
+        margin-top: 12px;
+      }
+      p {
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 28px;
+      }
+    }
+    .secondContent {
+      .serviceImgOne {
+        position: relative;
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+        .serviceImgTwo {
+          position: absolute;
+          top: 22%;
+          left: 50%;
+
+          img {
+            width: 100px;
+            transform: translate(-50%, -50%);
+            animation: myfirst 1.5s infinite linear;
+            @keyframes myfirst {
+              0% {
+                transform: translate(-50%, -50%) rotate(0deg);
+              }
+              100% {
+                transform: translate(-50%, -50%) rotate(100deg);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 70px;
+
+    .box {
+      background-image: linear-gradient(#6e9af8, #b0c9ef);
+
+      color: #000;
+      border-radius: 30px;
+      padding: 30px 20px;
+      text-align: center;
+      img {
+        // animation-duration: 2s;
+        width: 200px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+      h3 {
+        font-size: 20px;
+        margin-top: 8px;
+      }
+      p {
+        font-size: 16px;
+        margin-top: 8px;
+        line-height: 24px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        height: auto;
+      }
+      h4 {
+        color: #002e94;
+        font-weight: 600;
+        font-size: 14px;
+        border: 1px solid #002e94;
+        border-radius: 5px;
+        width: 100px;
+        padding: 5px 10px;
+        margin: 12px auto;
+        cursor: pointer;
+        &:hover {
+          background: #1c5adf;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

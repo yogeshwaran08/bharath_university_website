@@ -1,0 +1,23 @@
+.aboutusWrapper {
+  padding: 32px 128px;
+  background: #fff;
+  color: #000;
+  .aboutusContent {
+    h4 {
+      text-align: center;
+      padding-bottom: 16px;
+      font-size: 52px;
+      font-weight: 500;
+    }
+    p {
+      line-height: 28px;
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+  .aboutusImg {
+    img {
+      width: 100%;
+    }
+  }
+}
